@@ -1,0 +1,9 @@
+Leonardo, Lays, Erick, Higor
+h1{
+    color: blue;
+    text-decoration: underline;
+}
+p{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}

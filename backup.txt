@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../public/css/main.css">
+</head>
+<body>
+    <section>
+    <header>
+        
+        <div class="logo">
+            <img src="imagens/logoicon.png" alt="logo">
+            <h2>StreetPlay</h2>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#"><strong>Home</strong></a>
+                </li>
+                <li>
+                    <a href="#"><strong>Sobre</strong></a>
+                </li>
+                <li>
+                    <a href="#"><strong>Contato</strong></a>
+                </li>
+                <li>
+                    <a href="#"><strong>Duvidas</strong></a>
+                </li>
+            </ul>
+        </nav>
+        <div class="sign-in-btn">
+            <a href="/../login/html.html" class="btn" href="">
+                <strong>Entrar</strong>
+                <span>
+                </span>
+            <span>
+                </span>
+            <span>
+                </span>
+            <span>
+                </span>
+            </a>
+            <div class="icon" onclick="menufun()">
+            <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <div class="grid-two">
+        <div class="col-1">
+            <h3>Plataforma de transformação de artistas desconhecidos</h3>
+            <h1>
+                Se transforme <br> e mostre para todos <br> todo o seu pontencial <span><i class="fa-solid fa-arrow-trend-up"></i></span>
+            </h1>
+            <p>
+                Está iniciando sua carreira na musica, e não sabe por onde começar? Aqui esta a sua solução. Somos a StreetPlay uma plataforma que vai promover suas musicas e te mostrar o caminho que voce deve seguir!
+            </p>
+            <div class="btns">
+                <a href="#" class="btn-1">Iniciar</a>
+                <a href="#" class="btn-2">Saiba mais</a>
+            </div>
+        </div>
+        <div class="col-2">
+            <img src="imagens/ft1att.png" alt="">
+        </div>
+    </div>
+</section>
+<section class="text">
+    <p>
+    <h1>Texto apoio</h1>
+    Estamos emocionados em compartilhar nosso mais recente projeto: nosso site! Estamos trabalhando arduamente para fornecer conteúdo valioso e interessante, mas agora precisamos de sua ajuda para impulsionar nosso engajamento.
+    Se você já visitou nosso site, gostaríamos de ouvir seus pensamentos e feedback. Sua opinião é inestimável para nós e nos ajudará a melhorar continuamente.
+    Além disso, adoraríamos contar com seu apoio para compartilhar nosso site com seus amigos, familiares e em suas redes sociais. Cada compartilhamento conta e nos ajudará a alcançar um público mais amplo.
+    Juntos, podemos construir uma comunidade vibrante em torno do nosso site e oferecer conteúdo que realmente importa. Obrigado por seu apoio contínuo!
+    Visite-nos em [URL do site] e junte-se à nossa jornada!
+    Com gratidão,
+    </p>
+    <a class="yt-link" href="https://www.instagram.com/erickxzn/">Nosso Instagram</a>
+</section>
+<section class="tudo">
+    <div class="equipe">
+        <h1>Equipe:</h1>
+    </div>
+    <section class="features">
+        <div class="feature">
+        <img src="imagens/Leoburro.png" alt="Feature 1">
+        <h2>Leonardo</h2>
+        <p>Banco de Dados</p>
+        </div>
+        <div class="feature">
+        <img src="imagens/Erickburro.png" alt="Feature 2">
+        <h2>Erick</h2>
+        <p>Programador</p>
+        </div>
+        <div class="feature">
+        <img src="imagens/Luispreto.png" alt="Feature 3">
+        <h2>Luis</h2>
+        <p>Programador</p>
+        </div>
+        <div class="feature">
+            <img src="imagens/Higorviado.png" alt="Feature 1">
+            <h2>Higor</h2>
+            <p>Gestor/Administração</p>
+        </div>
+        <div class="feature">
+            <img src="imagens/Laysviada.png" alt="Feature 2">
+            <h2>Lays</h2>
+            <p>Banco de Dados</p>
+        </div>
+        <div class="feature">
+            <img src="imagens/stellaveveco.png" alt="Feature 3">
+            <h2>Stella</h2>
+            <p>Designer</p>
+        </div>
+        <div class="feature2">
+            <img src="imagens/victor.png" alt="Feature 2">
+            <h2 class="victor">Victor</h2>
+            <p class="funcvictor">Designer</p>
+        </div>
+    </section>
+</section>
+<script>
+    let icon=document.querySelector(".icon");
+    let menu=document.querySelector("ul");
+    function menufun(){
+    if(menu.style.left=="-100%"){
+        menu.style.left="0%"
+    }else{
+        menu.style.left="-100%"
+    }
+    }
+</script>
+</body>
+</html>
